@@ -1,0 +1,588 @@
+.body {
+	background: black;
+	padding: 1em;
+}
+h1{
+	color: black;
+}
+
+.footer{
+	/*position: fixed;*/
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: #C7F1E1;
+	
+}
+
+.navegacion{
+	font-size: x-large;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+	background: #AFC4D3;
+	padding: 1em;
+}
+
+/*___________________GRID TODO_________________________*/
+.grid{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1em;
+	grid-template-rows: minmax(400px, 400px, 200px);
+	padding: 1em;
+}
+
+.grid > div{
+	background: white;
+}
+/*_____________________________________________________*/
+
+/*___________________Grid UNO__________________________*/
+
+.grid-uno{
+	background: #AFC4D3;
+}
+.grid-anidado-uno > h1 {
+	color: #335B7A;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.grid-anidado-uno * span {
+	color: #6B8BA3;
+	font-size: 30px;
+}
+/*_____________________________________________________*/
+
+/*___________________Grid DOS__________________________*/
+
+.container-grid-dos{
+	width: 600px;
+	height: 90%;
+}
+
+.container-grid-dos{
+	background: white;
+	border-radius: 20px 20px 20px 20px;	
+}
+
+.container-grid-dos:hover{
+	box-shadow: 0 0  20px #ccd0d3;
+	transition: box-shadow 0.3s, background 0.5s;
+}
+
+.container-grid-dos * form{
+	width: 450px;
+	height: 250px; 
+	box-shadow: 0 0  20px 0 #6D96BA;
+	padding: 1em;
+}
+
+.container-grid-dos * p{
+	background: #C9DDEF;
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+} 
+
+.boton-registro2{
+	position: relative;
+	top: 20%; 
+	left: 50%; 
+	transform: translateX(-50%) translateY(-50%);
+	border: 1.5px solid #3498D8;
+	padding: 10px 80px;
+	color: white;
+	font-weight: 700px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: #3498D8;
+	transition: color 0.5s, background 0.5s;
+	border-radius: 30px;
+}
+
+.boton-registro2:hover{
+	color: #3498D8;
+	background-color: transparent;
+}
+
+/*___________________________________________________*/
+
+/*___________________Grid TRES__________________________*/
+
+.grid-tres{
+	display: grid;
+	grid-column: 1/3;
+	gap: 1em;	
+}
+
+.grid-anidado-tres-uno{
+	width: auto;
+	height: 100px;
+	position: relative;
+	background: #E8EEF3;
+	padding: 1em;
+	border: 1px solid #C3D1DD;
+	box-shadow: 0 0  20px 0 #dde8f1;
+	/*margin: 60px, 95px;*/
+}
+
+.grid-anidado-tres-uno h2 {
+	color: black;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	position: relative;
+	top: 50%; 
+	left: 50%; 
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.grid-anidado-tres-dos{
+	display: grid;
+	width: auto;
+	height: 340px;
+
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1em;
+	grid-auto-rows: minmax(40px, auto);
+	padding: 1em;
+}
+
+.grid-anidado-tres-dos div{
+	background: rgb(170, 199, 222);
+}
+
+/*__________________SECCIÓN 1_______________________*/
+
+.grid-anidado-tres-seccion1{
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	gap: 1em;
+	grid-template-rows: minmax(30px, 70px);
+	padding: 3em;
+}
+
+.gats1-descripcion-seccion1{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: minmax(100px, auto);
+}
+
+.gats1-nombre-seccion1 p{
+	color: black;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	position: relative;
+	top: 50%; 
+	left: 50%; 
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.gats1-imagen-seccion1 img{
+	display: block;
+	width: 150px;
+	height: auto;
+	margin: auto;
+}
+
+.gats1-descripcion-seccion1 p{
+	color: black;
+	text-align: center;
+	font-size: 25px;
+	position: relative;
+	top: 50%; 
+	left: 50%; 
+	transform: translateX(-50%) translateY(-50%);
+}
+
+/*_________________SECCIÓN 2___________________*/
+
+.gats2-descripcion-seccion2{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1em;
+	grid-template-rows: minmax(100px, auto);
+}
+
+.grid-anidado-tres-seccion2{
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	gap: 1em;
+	grid-template-rows: minmax(30px, 70px);
+	padding: 3em;
+}
+
+.gats2-nombre-seccion2 p{
+	color: black;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	position: relative;
+	top: 50%; 
+	left: 50%; 
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.gats2-descripcion-seccion2 p{
+	color: black;
+	text-align: center;
+	font-size: 25px;
+	position: relative;
+	top: 50%; 
+	left: 50%; 
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.gats2-imagen-seccion2 img{
+	display: block;
+	width: 150px;
+	height: auto;
+	margin: auto;
+}
+
+/*_________________SECCIÓN 3___________________*/
+
+.grid-anidado-tres-seccion3{
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	gap: 1em;
+	grid-template-rows: minmax(30px, 70px);
+	padding: 3em;
+}
+
+.gats3-descripcion-seccion3{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1em;
+	grid-template-rows: minmax(100px, auto);
+}
+
+.gats3-nombre-seccion3 p{
+	color: black;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	position: relative;
+	top: 50%; 
+	left: 50%; 
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.gats3-descripcion-seccion3 p{
+	color: black;
+	text-align: center;
+	font-size: 25px;
+	position: relative;
+	top: 50%; 
+	left: 50%; 
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.gats3-imagen-seccion3 img{
+	display: block;
+	width: 150px;
+	height: auto;
+	margin: auto;
+}
+/*______________________________________________________*/
+
+/*_________________________Grid CUATRO_______________________*/
+
+.grid-cuatro{
+	/*display: grid;
+	width: auto;
+	height: 400px;
+	grid-template-columns: repeat(1, 1fr);
+	gap: 1em;
+	grid-template-rows: minmax(120px, 50px);*/
+	padding: 1em;
+}
+
+.g4-contenido{
+	display: grid;
+	width: auto;
+	height: 400px;
+	grid-template-columns: repeat(1, 1fr);
+	/*gap: 1em;*/
+	grid-template-rows: minmax(120px, 50px);
+	padding: 1em;
+	box-shadow: 0 0  20px #A6A4DE;
+	border: 1px solid #7C79C4;
+}
+
+.grid-cuatro div{
+	background: #CFCEF2;
+}
+
+.g4-info1 p{
+	color: black;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	position: relative;
+	top: 50%; 
+	left: 50%; 
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.g4-info2 p{
+	color: black;
+	text-align: center;
+	font-size: 25px;
+	position: relative;
+	top: 50%; 
+	left: 50%; 
+	transform: translateX(-50%) translateY(-50%);
+}
+
+/*
+.g4-contenido > div:hover{
+	border: 1px solid black;
+}
+
+.g4-info1 > div:hover{
+	border: 1px solid black;
+}
+
+
+/*______________________________________________________*/
+
+/*_________________________Grid CINCO_______________________*/
+
+.grid-cinco{
+	/*display: grid;
+	width: auto;
+	height: 400px;
+	grid-template-columns: repeat(1, 1fr);
+	gap: 1em;
+	grid-template-rows: minmax(120px, 50px);*/
+	padding: 1em;
+}
+
+.g5-contenido{
+	display: grid;
+	width: auto;
+	height: 400px;
+	grid-template-columns: repeat(1, 1fr);
+	/*gap: 1em;*/
+	grid-template-rows: minmax(120px, 50px);
+	padding: 1em;
+	box-shadow: 0 0  20px #A6A4DE;
+	border: 1px solid #7C79C4;
+}
+
+.grid-cinco div{
+	background: #CFCEF2;
+}
+
+.g5-info1 p{
+	color: black;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	position: relative;
+	top: 50%; 
+	left: 50%; 
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.g5-info2 p{
+	color: black;
+	text-align: center;
+	font-size: 25px;
+	position: relative;
+	top: 50%; 
+	left: 50%; 
+	transform: translateX(-50%) translateY(-50%);
+}
+
+
+/*
+.g5-contenido > div:hover{
+	border: 1px solid black;
+}
+
+.g5-info1 > div:hover{
+	border: 1px solid black;
+}
+*/
+
+/*______________________________________________________*/
+
+
+/*___________________________DIV HOVER_________________________*/
+/*
+.grid > div:hover{
+	border: 1px solid black;
+}
+
+.grid-tres > div:hover{
+	border: 1px solid black;
+}
+
+.grid-anidado-tres-dos > div:hover{
+	border: 1px solid black;
+}
+.gats1-descripcion-seccion1 > div:hover{
+	border: 1px solid black;
+}
+
+.gats2-descripcion-seccion2 > div:hover{
+	border: 1px solid black;
+}
+
+.gats3-descripcion-seccion3 > div:hover{
+	border: 1px solid black;
+}
+
+.grid-anidado-tres-seccion1 > div:hover{
+	border: 1px solid black;
+}
+
+.grid-anidado-tres-seccion2 > div:hover{
+	border: 1px solid black;
+}
+.grid-anidado-tres-seccion3 > div:hover{
+	border: 1px solid black;
+}
+
+.grid-cuatro > div:hover{
+	border: 1px solid black;
+}
+
+.grid-cinco > div:hover{
+	border: 1px solid black;
+}
+*/
+/*____________________________________Register______________________________*/
+
+.grid-register {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	gap: 1em;
+	padding: 1em;
+
+}
+
+.container-grid-register{
+	width: auto;
+	height: 495px;
+}
+
+.container-grid-register * form{
+	width: 450px;
+	height: 400px; 
+	border: 1px solid #47739A;
+	box-shadow: 0 0  20px 0 #6D96BA;
+	padding: 1em;
+}
+
+.boton-registro{
+	position: relative;
+	top: 10%; 
+	left: 50%; 
+	transform: translateX(-50%) translateY(-50%);
+	border: 1.5px solid #3498D8;
+	padding: 10px 80px;
+	color: white;
+	font-weight: 700px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: #3498D8;
+	transition: color 0.5s, background 0.5s;
+	border-radius: 30px;
+}
+
+.boton-registro:hover{
+	color: #3498D8;
+	background-color: transparent;
+}
+
+/*________________________________LOGIN____________________*/
+
+.grid-login {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	gap: 1em;
+	padding: 1em;
+
+}
+
+.container-grid-login{
+	width: auto;
+	height: 495px;
+}
+
+.container-grid-login * form{
+	width: 450px;
+	height: 400px; 
+	border: 1px solid #47739A;
+	box-shadow: 0 0  20px 0 #6D96BA;
+	padding: 1em;
+}
+
+.boton-login{
+	position: relative;
+	top: 10%; 
+	left: 50%; 
+	transform: translateX(-50%) translateY(-50%);
+	border: 1.5px solid #3498D8;
+	padding: 10px 80px;
+	color: white;
+	font-weight: 700px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: #3498D8;
+	transition: color 0.5s, background 0.5s;
+	border-radius: 30px;
+}
+
+.boton-login:hover{
+	color: #3498D8;
+	background-color: transparent;
+}
+
+.container-formulario-login img{
+	display: block;
+	width: 100px;
+	height: auto;
+	margin: auto;
+	margin-top: 30px;
+}
+
+/*____________________AGREGAR ENCUESTA________________*/
+.App{
+	width: auto;
+}
+
+.btn-agregar-encuesta{
+	position: relative;
+	top: 1%; 
+	left: 50%; 
+	transform: translateX(-50%) translateY(-50%);
+	border: 1.5px solid rgb(149, 173, 192);
+	padding: 10px 80px;
+	color: rgb(99, 10, 99);
+	font-weight: 700px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: rgb(155, 181, 202)a9c9b;
+	transition: color 0.5s, background 0.5s;
+	border-radius: 30px;
+}
+
+.btn-agregar-encuesta:hover{
+	color: rgb(99, 10, 99);
+	background-color: transparent;
+}
+
+.error-msg{
+	color:#d50043;
+}
+
+.card-columns {
+    column-count: 3;
+}
+.card {display:inline-block;}
