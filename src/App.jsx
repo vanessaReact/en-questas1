@@ -8,10 +8,10 @@ import {BrowserRouter as Router} from 'react-router-dom';
 function App(){
 	return (
 		<Router>
-			<div className="App">
+			<div className="App d-flex flex-column min-vh-100">
 				<NaBar />
 				<Routing />
-				<Footer />
+				<Footer  />
 			</div>
 		</Router>
 	);

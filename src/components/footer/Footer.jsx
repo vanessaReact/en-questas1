@@ -5,7 +5,7 @@ import { Navbar, Nav, Container} from 'react-bootstrap';
 function Footer(){
     return (
 	<>
-		<footer className="footer">
+		<footer className="footer mt-auto">
 			<Navbar>
 			<Container>
 			<Navbar.Brand href="#home">Footer</Navbar.Brand>
